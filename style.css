@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+  }
+  
+.header, .footer, .main-info {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.header{
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: 100;
+    color: #f9faf8;
+}
+
+.header, .footer{
+    padding: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.offer{
+    padding: 50px;
+    margin: 50px 250px;
+}
+
+.main-info, .random-info, .testimonial {
+    padding: 50px 250px;
+}
+
+.main-info {
+    display: flex;
+    gap: 50px;
+}
+
+.main-info img {
+    max-width: 700px;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+.beschreibung {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+    text-align: center;
+}
+
+h2, .testimonial {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.kontakt, .offer {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.kontakt {
+    width: 100px;
+    height: 30px;
+    border-color: #f9faf8;
+    border-width: 2px 2px;
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    text-align: justify;
+  }
+  
+.info {
+    max-width: 250px;
+    margin-bottom: 30px;
+    gap: 200Spx;
+  }
+
+.info img {
+    max-width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: thick;
+    margin-bottom: 20px;
+  }
+
+  .testimonial {
+    background-color: #E5E7EB;
+    font-style: italic;
+  }
+  
+  p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .offer{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+  }
+
